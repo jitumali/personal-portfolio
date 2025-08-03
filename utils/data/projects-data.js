@@ -1,42 +1,55 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Prest POS",
+    description:
+      "I worked as a frontend developer on Prest POS, a modern Point of Sale system. Built using Next.js, Material-UI, and Redux for robust state management and responsive UI components.",
+    tools: ["Next.js", "Material-UI", "Redux"],
+    role: "Frontend Developer",
+    code: "",
+    demo: "https://app.get-prest.com/",
+  },
+  {
+    id: 5,
+    name: "Prest POS Website",
+    description:
+      "I developed the official marketing website for Prest POS to showcase its features, pricing, and business benefits. Using Next.js and Ant Design, I built clean, responsive landing pages, feature sections, and contact forms to help attract new clients and provide information about the POS system.",
+    tools: ["Next.js", "Ant Design"],
+    role: "Frontend Developer",
+    code: "",
+    demo: "https://get-prest.com/",
+  },
+  {
+    id: 2,
+    name: "Creative Bugs (E-commerce Website)",
+    description:
+      "Developed the frontend of an e-commerce website called Creative Bugs using Next.js, Chakra UI, and Redux Toolkit (Slices) for efficient state management and modular design.",
+    tools: ["Next.js", "Chakra UI", "Redux Toolkit"],
+    role: "Frontend Developer",
+    code: "",
+    demo: "https://www.creativebugs.shop/",
+  },
+  {
+    id: 3,
+    name: "Shree Prasadam",
+    description:
+      "Created a clean and user-friendly website for Shree Prasadam using React.js and Material-UI. Focused on building reusable components and a responsive layout.",
+    tools: ["React.js", "Material-UI"],
+    role: "Frontend Developer",
+    code: "",
+    demo: "https://prasadam-website.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Dynamic E-commerce Admin Panel",
+    description:
+      "Built a dynamic admin panel for managing e-commerce operations using Next.js and Tailwind CSS. Focused on clean UI, server-side rendering, and responsive design.",
+    tools: ["Next.js", "Tailwind CSS"],
+    role: "Frontend Developer",
+    code: "",
+    demo: "",
+  },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below

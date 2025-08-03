@@ -1,20 +1,21 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Bachelor of Technology, CSE",
+    duration: "2020 - 2024",
+    institution: "Indus University, Ahmedabad",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Senior Secondary (XII), Science",
+    duration: "2018 - 2019",
+    institution: "Adarsh Vidhya Mandir, Sirohi (RBSE Board)",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+    title: "Secondary (X)",
+    duration: "2017 - 2018",
+    institution:
+      "Prayagraj SIC Secondary School, Kalandri, Sirohi (RBSE Board)",
+  },
+];
